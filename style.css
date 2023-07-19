@@ -214,6 +214,10 @@ select {
   border: 0;
 }
 
+.margin-center{
+    margin: 0 auto;
+}
+
 /* ------------------- */
 /* component classes     */
 /* ------------------- */
@@ -310,18 +314,20 @@ padding: var(--padding);
     --item-color: var(--clr-cobalt-blue)
 }
 
+.summary-score {
+    color: hsl(var(--clr-neutral-hsl-700), .7);
+}
+
 .summary-score span{
+    margin-right: 0.5rem;
     font-weight: var(--fw-black);
     color: hsl(var(--clr-neutral-hsl-700));
 }
 
-
-
-
-
 /* button */
 
 .btn{
+    display: block;
     color: var(--clr-neutral-100);
     line-height: 1;
     background-color: var(--clr-neutral-700);
