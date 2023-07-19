@@ -280,11 +280,12 @@ padding: var(--padding);
     align-items: center;
     padding: 1rem;
     border-radius: .5rem;
-    background-color: hsl(var(--item-color), 0.08);
+    background-color: hsl(var(--item-color), 0.05);
 }
 
 .summary-item-title{
     font-size: var(--fs-400);
+    font-weight: var(--fw-bold);
     color: hsl(var(--item-color)); ;
 }
 
